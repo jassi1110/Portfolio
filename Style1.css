@@ -8,14 +8,14 @@
     overflow: hidden;
 }
 
-.navbar .nav-item{
+.navbar .butns{
     /* display: inline; */
     padding: 10px;
     margin-left: 20px;
     font-size: 20px;
 }
 
-.navbar .nav-item a{
+.navbar .butns a{
     position: relative;
     text-decoration: none;
     display: inline-block;
@@ -29,12 +29,12 @@
     
 } 
 
-.navbar .nav-item :hover{
+.navbar .butns :hover{
     transform:scale(1.2);
 
 }
 
-.navbar .nav-item a::after{
+.navbar .butns a::after{
     content: "";
     position: absolute;
     background-color: rgb(255, 81, 0);
@@ -44,7 +44,8 @@
     bottom: -10px;
     transition: ease-out 0.3s all;
 }
-.navbar .nav-item a:hover::after{
+.navbar .butns a:hover::after{
     width: 100%;
     transform: scale(1.2);
 }
+
