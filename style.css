@@ -14,36 +14,44 @@
 }
 
  .navbar{
-    justify-content:flex-start;
-    /* justify-content: space-evenly; */
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    margin: auto;
-    height: 10vh;
-    width: 100%;
-}
-.navbar li{
+     /* justify-content:flex-end; */
+     display: flex;
+     flex-direction: row;
+     align-items:center;
+     margin: auto;
+     height: 10vh;
+     width: 100%;
+    }
+
+    .navbar .butns{
+        justify-content: flex-end;
+        
+    }
+
+.navbar .butns li{
     display: inline;
     padding: 20px;
     margin-left: 20px;
     font-size: 20px;
 }
-.navbar a{
+.navbar .butns a{
     position: relative;
     text-decoration: none;
+    display: inline-block;
     font-family: 'Zen Dots', cursive;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
     color: white;
     left: 0%;
-    transition: 0.3s all;
+    transition: 0.6s;
+    border-radius: 50%;
+    
 } 
-.navbar a:hover{
-    color:white;
+.navbar .butns li :hover{
+    transform:scale(1.2);
 
 }
-.navbar a::after{
+.navbar .butns a::after{
     content: "";
     position: absolute;
     background-color: rgb(255, 81, 0);
@@ -53,7 +61,8 @@
     bottom: -10px;
     transition: ease-out 0.3s all;
 }
-.navbar a:hover::after{
+.navbar .butns a:hover::after{
     width: 100%;
+    transform: scale(1.2);
 }
 
