@@ -51,18 +51,18 @@
 
 .Responsive-headline{
     font-family: 'Zen Dots', cursive;
-    margin-left: 80px;
-    margin-top: 200px;
+    margin-left: 7vw;
+    margin-top: 17.5vw;
     color: white;
-    font-size: 3vw;
+    font-size: 35px;
 }
 
 #cont{
-    margin-left: 20px;
-    width: 950px;
+    margin-left: 1.75vw;
+    width: 55.125vw;
 }
 .column{
     display: table-cell;
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
 }
