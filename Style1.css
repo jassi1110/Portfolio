@@ -49,3 +49,20 @@
     transform: scale(1.2);
 }
 
+.Responsive-headline{
+    font-family: 'Zen Dots', cursive;
+    margin-left: 80px;
+    margin-top: 200px;
+    color: white;
+    font-size: 3vw;
+}
+
+#cont{
+    margin-left: 20px;
+    width: 950px;
+}
+.column{
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+}
