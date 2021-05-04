@@ -94,7 +94,7 @@
     height: 50px;
     width: 50px;
     transition: 0.3s all;
-    animation: scroll-down 2s ease-in-out infinite;
+    animation: scroll-down 1.5s ease-in-out infinite;
 }
 
 .scroll-down::before,
