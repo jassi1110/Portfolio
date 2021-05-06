@@ -10,17 +10,16 @@ function myFunction() {
     }
 } 
 
-// For highlighting section in the Navbar
-const sections = document.querySelectorAll(`section`)
-const navLi = document.querySelectorAll(`.navbar .butns`)
 
-window.addEventListener('scroll' ,()=>{
-let current = ''
-sections.forEach(section =>{
-    const secTop = section.offsetTop
-    if(pageYOffset>secTop){
-        current = section.getAttribute(`id`)
-    }
-})
-console.log(current)
-})
+const navLi = document.querySelectorAll(`.highlight`)
+let xyz = document.querySelectorAll(`.navbar .butns a`)
+
+navLi.forEach(element => {
+    element.addEventListener("click", ()=>{
+        xyz.forEach(index =>{
+            index.classList.remove(`line`)
+            element.classList.add(`line`)
+        })
+
+    })
+});
