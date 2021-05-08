@@ -10,7 +10,7 @@ function myFunction() {
     }
 } 
 
-
+// For clicking on navbar
 const navLi = document.querySelectorAll(`.highlight`)
 let xyz = document.querySelectorAll(`.navbar .butns a`)
 
